@@ -1487,6 +1487,7 @@ o === null || o === void 0 || o({
 ((_s$litElementVersions = s.litElementVersions) !== null && _s$litElementVersions !== void 0 ? _s$litElementVersions : s.litElementVersions = []).push("4.2.2");
 
 var _templateObject, _templateObject2;
+console.log('[Widget]: script executing');
 var GESTION_SINISTRE_TEAM_ID = 'db207f60-25ca-41e2-9b94-de1f612006a0';
 var DECLARATION_SINISTRE_TEAM_ID = '5bc78dda-728b-43dc-9be9-7ebac552cef3';
 var DIAL_NUMBER = '5555';
