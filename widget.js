@@ -1524,6 +1524,7 @@ var TeamChangeWidget = /*#__PURE__*/function (_LitElement) {
           }
         }
       });
+      console.log('[Widget]: Webex.init called, waiting for ready...');
       this._webex.once('ready', function () {
         console.log('[Widget]: Webex ready, registering...');
         _this._register();
