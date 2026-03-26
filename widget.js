@@ -1602,5 +1602,7 @@ _defineProperty(TeamChangeWidget, "properties", {
   } // injected by WxCC Desktop via layout
 });
 _defineProperty(TeamChangeWidget, "styles", i$3(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n    :host {\n      display: block;\n      font-family: sans-serif;\n      padding: 1rem;\n    }\n    button {\n      padding: 0.5rem 1rem;\n      cursor: pointer;\n    }\n  "]))));
-customElements.define('team-change-widget', TeamChangeWidget);
+if (!customElements.get('team-change-widget')) {
+  customElements.define('team-change-widget', TeamChangeWidget);
+}
 //# sourceMappingURL=widget.js.map
