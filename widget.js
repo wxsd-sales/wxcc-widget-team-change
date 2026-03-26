@@ -1497,12 +1497,10 @@ var TeamChangeWidget = /*#__PURE__*/function (_LitElement) {
   }
   _inherits(TeamChangeWidget, _LitElement);
   return _createClass(TeamChangeWidget, [{
-    key: "superConnectedCallback",
-    value: function superConnectedCallback() {
-      var _superPropGet2;
-      (_superPropGet2 = _superPropGet(TeamChangeWidget, "superConnectedCallback", this, 3)) === null || _superPropGet2 === void 0 || _superPropGet2([]);
-      // bearerToken is available here, injected by the desktop platform
-      console.log('[Widget]: superConnectedCallback, token available:', !!this.bearerToken);
+    key: "connectedCallback",
+    value: function connectedCallback() {
+      _superPropGet(TeamChangeWidget, "connectedCallback", this, 3)([]);
+      console.log('[Widget]: connectedCallback, token available:', !!this.bearerToken);
       this._initWebex();
     }
   }, {
